@@ -1,0 +1,53 @@
+RequetesDeCreations
+CREATE TABLE client(
+    idClient int PRIMARY KEY AUTO_INCREMENT,
+    nomClient varchar(30),
+    usernameClient varchar(30),
+    numCarte int,
+    mdpClient varchar(30))
+    
+    
+CREATE TABLE Panier(
+    idPanier int PRIMARY KEY AUTO_INCREMENT,
+    idClient int , FOREIGN KEY(idClient) REFERENCES Client(idClient))
+
+
+CREATE TABLE Produit(
+    idProduit int PRIMARY KEY AUTO_INCREMENT,
+    nomProduit varchar(50),
+    prix varchar(30),
+    quantite int
+)
+    
+    
+CREATE TABLE Commande(
+    idCommande int PRIMARY KEY AUTO_INCREMENT,
+    dateCommande varchar(50),
+    idPanier int , FOREIGN KEY(idPanier) REFERENCES panier(idPanier),
+    idClient int , FOREIGN KEY(idClient) REFERENCES Client(idClient)
+)
+
+
+CREATE TABLE Acheter(
+    idAcheter int PRIMARY KEY AUTO_INCREMENT,
+    idClient int , FOREIGN KEY(idClient) REFERENCES client(idClient),
+    idProduit int , FOREIGN KEY(idProduit) REFERENCES produit(idProduit)    
+)
+    
+    
+
+CREATE TABLE Stocker(
+    idStocker int PRIMARY KEY AUTO_INCREMENT,
+    idProduit int , FOREIGN KEY(idProduit) REFERENCES produit(idProduit),
+    idPanier int , FOREIGN KEY(idPanier) REFERENCES panier(idPanier)
+)
+    
+    
+
+CREATE TABLE Contenir(
+    idContenir int PRIMARY KEY AUTO_INCREMENT,
+    idProduit int , FOREIGN KEY(idProduit) REFERENCES produit(idProduit),
+    idCommande int , FOREIGN KEY(idCommande) REFERENCES commande(idCommande)
+)
+    
+    

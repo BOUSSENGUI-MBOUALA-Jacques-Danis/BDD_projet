@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "0AApaLflpqm7lMyVQt2KZDePQOT8H7FN0UE7ROhYsicZTie+LfB39S4HiHTJnl0fony5//O08iFSv3nnOIBDqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jacqu\\OneDrive\\Bureau\\Documents\\DocGI2\\BDD2\\ProjetEcommerce (3)\\ProjetEcommerce\\ProjetEcommerce.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jacqu\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}

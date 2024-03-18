@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "h+c37QLD87Hue2ECuVJWCudmY1UWVnr28CjnlLuyl4Z5vaV53oTWI64IYK5sfudKqWh3lWNFOd2Uae2temrGPA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jacqu\\OneDrive\\Bureau\\Documents\\DocGI2\\BDD2\\ecommerce\\ecommerce.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jacqu\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\jacqu\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
